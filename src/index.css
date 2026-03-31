@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply m-0 bg-rose-50 font-sans text-slate-800 antialiased;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  @apply scroll-mt-24;
+}
