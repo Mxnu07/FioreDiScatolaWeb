@@ -1,6 +1,6 @@
 # FioreDiScatolaWeb
 
-Modern, responsive florist website template built with React + Tailwind CSS.
+Website for **Fiore di Scatola**, a florist in Levittown, Puerto Rico — built with React + Tailwind CSS.
 
 ## Requirements
 

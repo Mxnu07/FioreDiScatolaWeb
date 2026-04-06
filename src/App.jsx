@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-rose-50">
+    <div className="min-h-screen bg-olive-50">
       <Navbar />
       <main>
         <Hero />
