@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import roseFeature from "../assets/fiore-di-scatola/rose_image.png";
+import roseFeature from "../assets/fiore-di-scatola/contactsecphoto.jpg";
 
 const initialForm = {
   fullName: "",

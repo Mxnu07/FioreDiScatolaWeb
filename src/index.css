@@ -11,6 +11,13 @@ html {
 body {
   @apply m-0 bg-olive-50 font-sans text-slate-800 antialiased;
   font-family: "Inter", sans-serif;
+  background-image:
+    linear-gradient(rgba(247, 248, 244, 0.84), rgba(247, 248, 244, 0.84)),
+    url("./assets/fiore-di-scatola/FioreBackground.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section {

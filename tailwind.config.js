@@ -25,6 +25,15 @@ export default {
       boxShadow: {
         soft: "0 10px 35px -15px rgba(0,0,0,0.25)",
       },
+      keyframes: {
+        "catalog-in": {
+          "0%": { opacity: "0.88", transform: "translateY(6px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        "catalog-in": "catalog-in 0.28s ease-out both",
+      },
     },
   },
   plugins: [],

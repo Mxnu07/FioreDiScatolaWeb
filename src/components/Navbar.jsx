@@ -1,9 +1,9 @@
-import brandLogo from "../assets/fiore-di-scatola/fiorediscatola_logo.png";
+import brandLogo from "../assets/fiore-di-scatola/LogoNoFlw..png";
 
 const navItems = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
-  { href: "#products", label: "Arrangements" },
+  { href: "#catalog", label: "Catalog" },
   { href: "#order", label: "Order Request" },
   { href: "#contact", label: "Contact" },
 ];
@@ -19,7 +19,7 @@ function Navbar() {
           <img
             src={brandLogo}
             alt="Fiore di Scatola"
-            className="h-9 w-auto max-w-[min(200px,45vw)] object-contain object-left sm:h-11 sm:max-w-[220px]"
+            className="h-12 w-auto object-contain object-left sm:h-14"
             width={220}
             height={64}
             decoding="async"
